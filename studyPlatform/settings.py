@@ -40,12 +40,14 @@ INSTALLED_APPS = [
     'studyPlatformApi',
     'rest_framework',
     'corsheaders',
+    'whitenoise.runserver_nonstatic',
 
     'drf_yasg',
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
