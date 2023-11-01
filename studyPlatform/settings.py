@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'studyPlatformApi',
     'rest_framework',
     'corsheaders',
-    'whitenoise.runserver_nonstatic',
+    'whitenoise.runserver_nostatic',
 
     'drf_yasg',
 ]
