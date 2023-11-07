@@ -63,10 +63,11 @@ SWAGGER_SETTINGS = {
     'VALIDATOR_URL': 'http://localhost:8189',
 }
 
-CORS_ORIGIN_WHITELIST = [
-    "http://localhost:5173",
-    "https://studyyplatform.netlify.app",
-    "https://6c5b-94-158-59-41.ngrok-free.app",
+# CORS_ORIGIN_WHITELIST = [
+      '*'
+#     "http://localhost:5173",
+#     "https://studyyplatform.netlify.app",
+#     "https://6c5b-94-158-59-41.ngrok-free.app",
 ]
 
 ROOT_URLCONF = 'studyPlatform.urls'
